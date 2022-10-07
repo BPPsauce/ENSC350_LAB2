@@ -1,0 +1,79 @@
+|OddParity
+X[0] => oddparity:Recur:lowerEn.X[0]
+X[1] => oddparity:Recur:lowerEn.X[1]
+X[2] => oddparity:Recur:lowerEn.X[2]
+X[3] => oddparity:Recur:upperEn.X[0]
+X[4] => oddparity:Recur:upperEn.X[1]
+X[5] => oddparity:Recur:upperEn.X[2]
+X[6] => oddparity:Recur:upperEn.X[3]
+IsOdd <= IsOdd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|OddParity|OddParity:\Recur:upperEn
+X[0] => oddparity:Recur:lowerEn.X[0]
+X[1] => oddparity:Recur:lowerEn.X[1]
+X[2] => oddparity:Recur:upperEn.X[0]
+X[3] => oddparity:Recur:upperEn.X[1]
+IsOdd <= IsOdd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|OddParity|OddParity:\Recur:upperEn|OddParity:\Recur:upperEn
+X[0] => oddparity:Recur:lowerEn.X[0]
+X[1] => oddparity:Recur:upperEn.X[0]
+IsOdd <= IsOdd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|OddParity|OddParity:\Recur:upperEn|OddParity:\Recur:upperEn|OddParity:\Recur:upperEn
+X[0] => IsOdd.DATAIN
+IsOdd <= X[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|OddParity|OddParity:\Recur:upperEn|OddParity:\Recur:upperEn|OddParity:\Recur:lowerEn
+X[0] => IsOdd.DATAIN
+IsOdd <= X[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|OddParity|OddParity:\Recur:upperEn|OddParity:\Recur:lowerEn
+X[0] => oddparity:Recur:lowerEn.X[0]
+X[1] => oddparity:Recur:upperEn.X[0]
+IsOdd <= IsOdd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|OddParity|OddParity:\Recur:upperEn|OddParity:\Recur:lowerEn|OddParity:\Recur:upperEn
+X[0] => IsOdd.DATAIN
+IsOdd <= X[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|OddParity|OddParity:\Recur:upperEn|OddParity:\Recur:lowerEn|OddParity:\Recur:lowerEn
+X[0] => IsOdd.DATAIN
+IsOdd <= X[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|OddParity|OddParity:\Recur:lowerEn
+X[0] => oddparity:Recur:lowerEn.X[0]
+X[1] => oddparity:Recur:upperEn.X[0]
+X[2] => oddparity:Recur:upperEn.X[1]
+IsOdd <= IsOdd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|OddParity|OddParity:\Recur:lowerEn|OddParity:\Recur:upperEn
+X[0] => oddparity:Recur:lowerEn.X[0]
+X[1] => oddparity:Recur:upperEn.X[0]
+IsOdd <= IsOdd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|OddParity|OddParity:\Recur:lowerEn|OddParity:\Recur:upperEn|OddParity:\Recur:upperEn
+X[0] => IsOdd.DATAIN
+IsOdd <= X[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|OddParity|OddParity:\Recur:lowerEn|OddParity:\Recur:upperEn|OddParity:\Recur:lowerEn
+X[0] => IsOdd.DATAIN
+IsOdd <= X[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|OddParity|OddParity:\Recur:lowerEn|OddParity:\Recur:lowerEn
+X[0] => IsOdd.DATAIN
+IsOdd <= X[0].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,17 @@
+ibrary ieee;
+use ieee.std_logic_1164.all;
+
+Entity XORgate is
+	port (
+		input_1 : in std_logic;
+		input_2 : in std_logic;
+		result  : out std_logic; 
+		);
+end XORgate;
+
+architecture XORgate of XORgatr is 
+	signal output : std_logic;
+begin
+	output <= input_1 XOR input_2;
+	result <= output;
+end XORgate;
