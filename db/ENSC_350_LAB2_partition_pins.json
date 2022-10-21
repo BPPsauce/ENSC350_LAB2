@@ -4,15 +4,35 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "result",
+					"name" : "IsOdd",
 					"strict" : false
 				},
 				{
-					"name" : "input_1",
+					"name" : "X[0]",
 					"strict" : false
 				},
 				{
-					"name" : "input_2",
+					"name" : "X[1]",
+					"strict" : false
+				},
+				{
+					"name" : "X[2]",
+					"strict" : false
+				},
+				{
+					"name" : "X[3]",
+					"strict" : false
+				},
+				{
+					"name" : "X[4]",
+					"strict" : false
+				},
+				{
+					"name" : "X[5]",
+					"strict" : false
+				},
+				{
+					"name" : "X[6]",
 					"strict" : false
 				}
 			]

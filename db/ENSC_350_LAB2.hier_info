@@ -6,7 +6,7 @@ X[3] => oddparity:Recur:upperEn.X[0]
 X[4] => oddparity:Recur:upperEn.X[1]
 X[5] => oddparity:Recur:upperEn.X[2]
 X[6] => oddparity:Recur:upperEn.X[3]
-IsOdd <= IsOdd.DB_MAX_OUTPUT_PORT_TYPE
+IsOdd << IsOdd.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |OddParity|OddParity:\Recur:upperEn

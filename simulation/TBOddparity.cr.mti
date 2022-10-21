@@ -1,0 +1,20 @@
+/home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity XORgate
+-- Compiling architecture XORgate of XORgate
+
+} {} {}} /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity OddParity
+-- Compiling architecture chain of OddParity
+-- Compiling architecture tree of OddParity
+-- Loading entity OddParity
+
+} {} {}}

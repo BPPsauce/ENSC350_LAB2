@@ -1,5 +1,7 @@
 library ieee;
-use ieee.std_logic_1164.all;
+Use ieee.std_logic_1164.all;
+Use STD.TEXTIO.all;
+Use ieee.numeric_std.all;
 
 Entity OddParity is
 Generic ( N : natural := 7 );
@@ -34,18 +36,19 @@ architecture tree of OddParity is
 begin
 
 Recur : if (N > 1) generate 
-	upperEn : OddParity generic map ( (N+1) / 2 )
-		port map (X => X (N-1 downto N/2 ), IsOdd => entityUp);
+	upperEn : entity work.OddParity(tree) generic map ( (N+1) / 2 )
+		port map (X (N-1 downto N/2 ), entityUp);
 	
-	lowerEn : OddParity generic map ( N/2 )
-		port map (X => X ( N/2-1 downto 0 ), IsOdd => entityLow);
-	IsOdd <= entityUp XOR entitylow;
+	lowerEn : entity work.OddParity(tree) generic map ( N/2 )
+		port map ( X ( N/2-1 downto 0 ), entityLow);
+	IsOdd <= entityUp XNOR entitylow;
 end generate Recur;
 
 stopRecur : if N = 1 generate 
-	IsOdd <= not X(0);
+	IsOdd <=  X(0);
 end generate stopRecur;
 
 
-end tree;
+end Architecture tree;
 							 
+

@@ -1,0 +1,1043 @@
+vsim -i -l msim_transcript work.tboddparity -t ps
+# vsim -i -l msim_transcript work.tboddparity -t ps 
+# Start time: 13:18:09 on Oct 19,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tboddparity(tb)
+# Loading work.oddparity(tree)
+add wave -position insertpoint sim:/tboddparity/DUT/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORgate
+# -- Compiling architecture XORgate of XORgate
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OddParity
+# -- Compiling architecture chain of OddParity
+# -- Compiling architecture tree of OddParity
+# -- Loading entity OddParity
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBOddParity
+# -- Compiling architecture tb of TBOddParity
+# -- Loading entity OddParity
+# 
+# 
+# 3 compiles, 0 failed with no errors.
+vsim -i -l msim_transcript -t ps work.tboddparity
+# End time: 13:19:52 on Oct 19,2022, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 4
+# vsim -i -l msim_transcript -t ps work.tboddparity 
+# Start time: 13:19:52 on Oct 19,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tboddparity(tb)
+# Loading work.oddparity(tree)
+add wave -position insertpoint sim:/tboddparity/DUT/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORgate
+# -- Compiling architecture XORgate of XORgate
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OddParity
+# -- Compiling architecture chain of OddParity
+# -- Compiling architecture tree of OddParity
+# -- Loading entity OddParity
+# ** Error: /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd(45): Cannot read output "IsOdd".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd(52): near "Architecture": (vcom-1576) expecting ';'.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBOddParity
+# -- Compiling architecture tb of TBOddParity
+# -- Loading entity OddParity
+# 
+# 
+# 3 compiles, 1 failed with 2 errors.
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORgate
+# -- Compiling architecture XORgate of XORgate
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OddParity
+# -- Compiling architecture chain of OddParity
+# -- Compiling architecture tree of OddParity
+# -- Loading entity OddParity
+# ** Error: /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd(45): Cannot read output "IsOdd".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Note: /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd(53): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBOddParity
+# -- Compiling architecture tb of TBOddParity
+# -- Loading entity OddParity
+# 
+# 
+# 3 compiles, 1 failed with 1 error.
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORgate
+# -- Compiling architecture XORgate of XORgate
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OddParity
+# -- Compiling architecture chain of OddParity
+# -- Compiling architecture tree of OddParity
+# -- Loading entity OddParity
+# ** Error: /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd(45): Cannot read output "IsOdd".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Note: /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd(53): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBOddParity
+# -- Compiling architecture tb of TBOddParity
+# -- Loading entity OddParity
+# 
+# 
+# 3 compiles, 1 failed with 1 error.
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORgate
+# -- Compiling architecture XORgate of XORgate
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OddParity
+# -- Compiling architecture chain of OddParity
+# -- Compiling architecture tree of OddParity
+# -- Loading entity OddParity
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBOddParity
+# -- Compiling architecture tb of TBOddParity
+# -- Loading entity OddParity
+# 
+# 
+# 3 compiles, 0 failed with no errors.
+vsim -i -l msim_transcript -t ps work.tboddparity
+# End time: 13:26:40 on Oct 19,2022, Elapsed time: 0:06:48
+# Errors: 0, Warnings: 5
+# vsim -i -l msim_transcript -t ps work.tboddparity 
+# Start time: 13:26:40 on Oct 19,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tboddparity(tb)
+# Loading work.oddparity(tree)
+add wave -position insertpoint sim:/tboddparity/DUT/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORgate
+# -- Compiling architecture XORgate of XORgate
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OddParity
+# -- Compiling architecture chain of OddParity
+# -- Compiling architecture tree of OddParity
+# -- Loading entity OddParity
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBOddParity
+# -- Compiling architecture tb of TBOddParity
+# -- Loading entity OddParity
+# 
+# 
+# 3 compiles, 0 failed with no errors.
+vsim -i -l msim_transcript -t ps work.tboddparity
+# End time: 13:29:30 on Oct 19,2022, Elapsed time: 0:02:50
+# Errors: 0, Warnings: 2
+# vsim -i -l msim_transcript -t ps work.tboddparity 
+# Start time: 13:29:30 on Oct 19,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tboddparity(tb)
+# Loading work.oddparity(tree)
+add wave -position insertpoint sim:/tboddparity/DUT/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORgate
+# -- Compiling architecture XORgate of XORgate
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OddParity
+# -- Compiling architecture chain of OddParity
+# -- Compiling architecture tree of OddParity
+# -- Loading entity OddParity
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBOddParity
+# -- Compiling architecture tb of TBOddParity
+# -- Loading entity OddParity
+# ** Error: /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd(20): Enumeration literal 'X' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd(26): VHDL Compiler exiting
+# 
+# 
+# 3 compiles, 1 failed with 1 error.
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORgate
+# -- Compiling architecture XORgate of XORgate
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OddParity
+# -- Compiling architecture chain of OddParity
+# -- Compiling architecture tree of OddParity
+# -- Loading entity OddParity
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBOddParity
+# -- Compiling architecture tb of TBOddParity
+# -- Loading entity OddParity
+# ** Error: /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd(20): (vcom-1136) Unknown identifier "X".
+# ** Note: /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd(26): VHDL Compiler exiting
+# 
+# 
+# 3 compiles, 1 failed with 1 error.
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORgate
+# -- Compiling architecture XORgate of XORgate
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OddParity
+# -- Compiling architecture chain of OddParity
+# -- Compiling architecture tree of OddParity
+# -- Loading entity OddParity
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBOddParity
+# -- Compiling architecture tb of TBOddParity
+# -- Loading entity OddParity
+# 
+# 
+# 3 compiles, 0 failed with no errors.
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORgate
+# -- Compiling architecture XORgate of XORgate
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OddParity
+# -- Compiling architecture chain of OddParity
+# -- Compiling architecture tree of OddParity
+# -- Loading entity OddParity
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBOddParity
+# -- Compiling architecture tb of TBOddParity
+# -- Loading entity OddParity
+# 
+# 
+# 3 compiles, 0 failed with no errors.
+vsim -i -l msim_transcript -t ps work.tboddparity
+# End time: 13:32:22 on Oct 19,2022, Elapsed time: 0:02:52
+# Errors: 0, Warnings: 5
+# vsim -i -l msim_transcript -t ps work.tboddparity 
+# Start time: 13:32:22 on Oct 19,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tboddparity(tb)
+# Loading work.oddparity(tree)
+add wave -position insertpoint sim:/tboddparity/DUT/*
+run
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 7 (6 downto 0). Right is 1 (6 downto 6).
+#    Time: 0 ps  Iteration: 0  Process: /tboddparity/line__19 File: /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Fatal error in Process line__19 at /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd line 20
+# 
+# HDL call sequence:
+# Stopped at /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd 20 Process line__19
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd 20 Process line__19
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd 20 Process line__19
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd 20 Process line__19
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd 20 Process line__19
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORgate
+# -- Compiling architecture XORgate of XORgate
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OddParity
+# -- Compiling architecture chain of OddParity
+# -- Compiling architecture tree of OddParity
+# -- Loading entity OddParity
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBOddParity
+# -- Compiling architecture tb of TBOddParity
+# -- Loading entity OddParity
+# ** Error: /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd(20): (vcom-1136) Unknown identifier "X".
+# ** Note: /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd(26): VHDL Compiler exiting
+# 
+# 
+# 3 compiles, 1 failed with 1 error.
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORgate
+# -- Compiling architecture XORgate of XORgate
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OddParity
+# -- Compiling architecture chain of OddParity
+# -- Compiling architecture tree of OddParity
+# -- Loading entity OddParity
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBOddParity
+# -- Compiling architecture tb of TBOddParity
+# -- Loading entity OddParity
+# 
+# 
+# 3 compiles, 0 failed with no errors.
+vsim -i -l msim_transcript -t ps work.tboddparity
+# End time: 13:33:36 on Oct 19,2022, Elapsed time: 0:01:14
+# Errors: 1, Warnings: 3
+# vsim -i -l msim_transcript -t ps work.tboddparity 
+# Start time: 13:33:36 on Oct 19,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tboddparity(tb)
+# Loading work.oddparity(tree)
+add wave -position insertpoint sim:/tboddparity/DUT/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORgate
+# -- Compiling architecture XORgate of XORgate
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OddParity
+# -- Compiling architecture chain of OddParity
+# -- Compiling architecture tree of OddParity
+# -- Loading entity OddParity
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBOddParity
+# -- Compiling architecture tb of TBOddParity
+# -- Loading entity OddParity
+# ** Error: /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd(20): near "=>": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Note: /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd(26): VHDL Compiler exiting
+# 
+# 
+# 3 compiles, 1 failed with 1 error.
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORgate
+# -- Compiling architecture XORgate of XORgate
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OddParity
+# -- Compiling architecture chain of OddParity
+# -- Compiling architecture tree of OddParity
+# -- Loading entity OddParity
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBOddParity
+# -- Compiling architecture tb of TBOddParity
+# -- Loading entity OddParity
+# ** Error: /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd(20): (vcom-1136) Unknown identifier "X".
+# ** Error: /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd(20): (vcom-1136) Unknown identifier "X".
+# ** Note: /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd(26): VHDL Compiler exiting
+# 
+# 
+# 3 compiles, 1 failed with 2 errors.
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORgate
+# -- Compiling architecture XORgate of XORgate
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OddParity
+# -- Compiling architecture chain of OddParity
+# -- Compiling architecture tree of OddParity
+# -- Loading entity OddParity
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBOddParity
+# -- Compiling architecture tb of TBOddParity
+# -- Loading entity OddParity
+# 
+# 
+# 3 compiles, 0 failed with no errors.
+vsim -i -l msim_transcript -t ps work.tboddparity
+# End time: 13:37:35 on Oct 19,2022, Elapsed time: 0:03:59
+# Errors: 0, Warnings: 4
+# vsim -i -l msim_transcript -t ps work.tboddparity 
+# Start time: 13:37:35 on Oct 19,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tboddparity(tb)
+# Loading work.oddparity(tree)
+add wave -position insertpoint sim:/tboddparity/DUT/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORgate
+# -- Compiling architecture XORgate of XORgate
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OddParity
+# -- Compiling architecture chain of OddParity
+# -- Compiling architecture tree of OddParity
+# -- Loading entity OddParity
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBOddParity
+# -- Compiling architecture tb of TBOddParity
+# -- Loading entity OddParity
+# 
+# 
+# 3 compiles, 0 failed with no errors.
+vsim -i -l msim_transcript -t ps work.tboddparity
+# End time: 13:42:45 on Oct 19,2022, Elapsed time: 0:05:10
+# Errors: 0, Warnings: 2
+# vsim -i -l msim_transcript -t ps work.tboddparity 
+# Start time: 13:42:45 on Oct 19,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tboddparity(tb)
+# Loading work.oddparity(tree)
+add wave -position insertpoint sim:/tboddparity/DUT/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORgate
+# -- Compiling architecture XORgate of XORgate
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OddParity
+# -- Compiling architecture chain of OddParity
+# -- Compiling architecture tree of OddParity
+# -- Loading entity OddParity
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBOddParity
+# -- Compiling architecture tb of TBOddParity
+# -- Loading entity OddParity
+# 
+# 
+# 3 compiles, 0 failed with no errors.
+vsim -i -l msim_transcript -t ps work.tboddparity
+# End time: 13:45:39 on Oct 19,2022, Elapsed time: 0:02:54
+# Errors: 0, Warnings: 2
+# vsim -i -l msim_transcript -t ps work.tboddparity 
+# Start time: 13:45:39 on Oct 19,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tboddparity(tb)
+# Loading work.oddparity(tree)
+# ** Fatal: (vsim-3348) Port length (7) does not match actual length (8) for port "/tboddparity/DUT/X".
+#    Time: 0 ps  Iteration: 0  Instance: /tboddparity/DUT File: /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd Line: 8
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 13:45:39 on Oct 19,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORgate
+# -- Compiling architecture XORgate of XORgate
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OddParity
+# -- Compiling architecture chain of OddParity
+# -- Compiling architecture tree of OddParity
+# -- Loading entity OddParity
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBOddParity
+# -- Compiling architecture tb of TBOddParity
+# -- Loading entity OddParity
+# 
+# 
+# 3 compiles, 0 failed with no errors.
+vsim -i -l msim_transcript -t ps work.tboddparity
+# vsim -i -l msim_transcript -t ps work.tboddparity 
+# Start time: 13:46:09 on Oct 19,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tboddparity(tb)
+# Loading work.oddparity(tree)
+add wave -position insertpoint sim:/tboddparity/DUT/*
+run
+run
+run
+run
+run
+run
+run
+run
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORgate
+# -- Compiling architecture XORgate of XORgate
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OddParity
+# -- Compiling architecture chain of OddParity
+# -- Compiling architecture tree of OddParity
+# -- Loading entity OddParity
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBOddParity
+# -- Compiling architecture tb of TBOddParity
+# -- Loading entity OddParity
+# 
+# 
+# 3 compiles, 0 failed with no errors.
+vsim -i -l msim_transcript -t ps work.tboddparity
+# End time: 13:47:13 on Oct 19,2022, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 3
+# vsim -i -l msim_transcript -t ps work.tboddparity 
+# Start time: 13:47:13 on Oct 19,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tboddparity(tb)
+# Loading work.oddparity(tree)
+add wave -position insertpoint sim:/tboddparity/DUT/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORgate
+# -- Compiling architecture XORgate of XORgate
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OddParity
+# -- Compiling architecture chain of OddParity
+# -- Compiling architecture tree of OddParity
+# -- Loading entity OddParity
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBOddParity
+# -- Compiling architecture tb of TBOddParity
+# -- Loading entity OddParity
+# 
+# 
+# 3 compiles, 0 failed with no errors.
+vsim -i -l msim_transcript -t ps work.tboddparity
+# End time: 13:48:01 on Oct 19,2022, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 2
+# vsim -i -l msim_transcript -t ps work.tboddparity 
+# Start time: 13:48:01 on Oct 19,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tboddparity(tb)
+# Loading work.oddparity(tree)
+add wave -position insertpoint sim:/tboddparity/DUT/*
+run -continue
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -divider "DUT signal"
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/bppsauce/SFU/ENSC350/lab2/simulation/OddParityWave.do
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XORgate
+# -- Compiling architecture XORgate of XORgate
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OddParity
+# -- Compiling architecture chain of OddParity
+# -- Compiling architecture tree of OddParity
+# -- Loading entity OddParity
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBOddParity
+# -- Compiling architecture tb of TBOddParity
+# -- Loading entity OddParity
+# 
+# 
+# 3 compiles, 0 failed with no errors.
+vsim -i -l msim_transcript -t ps work.tboddparity
+# End time: 14:01:41 on Oct 19,2022, Elapsed time: 0:13:40
+# Errors: 0, Warnings: 2
+# vsim -i -l msim_transcript -t ps work.tboddparity 
+# Start time: 14:01:41 on Oct 19,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tboddparity(tb)
+# Loading work.oddparity(tree)
+add wave -position insertpoint sim:/tboddparity/DUT/*
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 12:27:07 on Oct 20,2022, Elapsed time: 22:25:26
+# Errors: 0, Warnings: 1

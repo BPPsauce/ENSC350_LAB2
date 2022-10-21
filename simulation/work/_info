@@ -1,0 +1,159 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/bppsauce/SFU/ENSC350/lab2/simulation/modelsim
+Eoddparity
+Z0 w1666212452
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 156
+Z4 d/home/bppsauce/SFU/ENSC350/lab2/simulation
+Z5 8/home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+Z6 F/home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd
+l0
+L6 1
+V:5Ajfcj;1RH^2_Z7@@@WC3
+!s100 k[0S@ACa;GD:PolNPF@jG1
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1666213286
+!i10b 1
+Z9 !s108 1666213286.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd|
+Z11 !s107 /home/bppsauce/SFU/ENSC350/lab2/OddParity.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Atree
+R1
+R2
+R3
+Z14 DEx4 work 9 oddparity 0 22 :5Ajfcj;1RH^2_Z7@@@WC3
+!i122 156
+l36
+L33 20
+V0U]gZZjkIV:ba43O^VcPa3
+!s100 SWekfj6>_bVjH=9M;<OH72
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Achain
+R1
+R2
+R3
+R14
+!i122 156
+l21
+L13 18
+Vfde9TAOQe9Z[M`jXlQU^C3
+!s100 SXA`F=_>5Xag?iM4VKf7i3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etboddparity
+Z15 w1666213282
+R1
+R2
+R3
+!i122 157
+R4
+Z16 8/home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+Z17 F/home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd
+l0
+L6 1
+V75SlK^o9Rb>mEZ1?Uc2b22
+!s100 3?Wh;UTgG9]HSR3a>f2n90
+R7
+32
+Z18 !s110 1666213287
+!i10b 1
+Z19 !s108 1666213287.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd|
+Z21 !s107 /home/bppsauce/SFU/ENSC350/lab2/simulation/TBOddparity.vhd|
+!i113 1
+R12
+R13
+Atb
+R14
+R1
+R2
+R3
+Z22 DEx4 work 11 tboddparity 0 22 75SlK^o9Rb>mEZ1?Uc2b22
+!i122 157
+l16
+Z23 L11 16
+VQ:YWT5enT9bbJTJ;bWYe30
+!s100 zlgP7?Hm>Rf80@7YMI6lS2
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Exorgate
+Z24 w1665104002
+R2
+R3
+!i122 155
+R4
+Z25 8/home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+Z26 F/home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd
+l0
+L4 1
+VP1ekkRojEfFN@kWK[7`ad2
+!s100 9E>88CI8WQDDn5R;AA18j0
+R7
+32
+R8
+!i10b 1
+R9
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd|
+Z28 !s107 /home/bppsauce/SFU/ENSC350/lab2/XORgate.vhd|
+!i113 1
+R12
+R13
+Axorgate
+R2
+R3
+DEx4 work 7 xorgate 0 22 P1ekkRojEfFN@kWK[7`ad2
+!i122 155
+l13
+L12 12
+V4<818?Jc?dCBmMX`[dgDk2
+!s100 L=1jLoQ`A7J5ml8j?^hm=3
+R7
+32
+R8
+!i10b 1
+R9
+R27
+R28
+!i113 1
+R12
+R13
